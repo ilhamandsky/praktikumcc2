@@ -9,10 +9,10 @@ $alasan = "karena lagu ini berasa kayak pelukan hangat di sore yang sunyi, pelan
   <meta charset="UTF-8">
   <title><?= $judul ?></title>
   <style>
-    body {
+body {
       font-family: 'Poppins', sans-serif;
-      background-color: #5b1f1b; /* maroon earthy tone */
-      color: #f3dcd0; /* soft beige text */
+      background: linear-gradient(180deg, #f5f5f5 0%, #e8ecf2 100%);
+      color: #2d2d2d;
       text-align: center;
       padding-top: 80px;
       margin: 0;
@@ -22,37 +22,44 @@ $alasan = "karena lagu ini berasa kayak pelukan hangat di sore yang sunyi, pelan
       font-size: 2.2em;
       letter-spacing: 1px;
       margin-bottom: 10px;
+      color: #3b3b3b;
     }
     p {
-      font-size: 1.2em;
+      font-size: 1.1em;
       margin: 10px 0;
     }
     img {
       margin-top: 40px;
       border-radius: 12px;
-      width: 220px;
-      height: 220px;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+      width: 240px;
+      height: 240px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    }
+    .lyrics {
+      margin-top: 25px;
+      font-style: italic;
+      color: #4f4f4f;
     }
     a {
       display: inline-block;
-      margin-top: 20px;
-      padding: 10px 20px;
-      color: #f3dcd0;
-      border: 1px solid #f3dcd0;
+      margin-top: 25px;
+      padding: 10px 22px;
+      color: #ffffff;
+      background-color: #44667a;
       border-radius: 25px;
       text-decoration: none;
       font-weight: 500;
       transition: 0.3s;
     }
     a:hover {
-      background-color: #f3dcd0;
-      color: #5b1f1b;
+      background-color: #324c5b;
     }
-    .lyrics {
-      margin-top: 30px;
-      font-style: italic;
-      color: #f7e8e0;
+    footer {
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      font-size: 0.9em;
+      color: #888;
     }
   </style>
 </head>
@@ -60,7 +67,7 @@ $alasan = "karena lagu ini berasa kayak pelukan hangat di sore yang sunyi, pelan
   <h1><?= $judul ?> 🌊</h1>
   <p><strong>Lagu:</strong> <?= $lagu ?></p>
   <p><em>Kenapa suka?</em> <?= $alasan ?></p>
-  <img src="https://i.scdn.co/image/ab67616d0000b2734b6d715274ab89c5e4a7a5a2" alt="calla cover">
+  <img src="https://share.google/images/Xfw8cllJCScTwXac8" alt="calla cover">
   <div class="lyrics">
     <p>“Hope this moment is not a daydream<br>
     Calla, someone said that your time will be over soon...”</p>
