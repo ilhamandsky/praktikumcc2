@@ -67,10 +67,10 @@ body {
   <h1><?= $judul ?> 🌊</h1>
   <p><strong>Lagu:</strong> <?= $lagu ?></p>
   <p><em>Kenapa suka?</em> <?= $alasan ?></p>
-  <img src="https://share.google/images/Xfw8cllJCScTwXac8" alt="calla cover">
+  <img src="https://share.google/images/fql099QI0kfNjqa69" alt="calla cover">
   <div class="lyrics">
-    <p>“Hope this moment is not a daydream<br>
-    Calla, someone said that your time will be over soon...”</p>
+    <p>“Calla, someone said that your time will be over soon.”<br>
+    But, calla ... you can always grow back</p>
   </div>
   <a href="https://open.spotify.com/track/5LZ4YMkDx5hY7N9QsH4KTd?si=16a034861e154ebd" target="_blank">🎧 Dengarkan di Spotify</a>
 </body>
